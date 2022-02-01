@@ -1,5 +1,6 @@
 # creating speech engine first
 
+# importing modules required
 from ipaddress import ip_address
 from utils import opening_text
 from random import choice
@@ -179,3 +180,5 @@ if __name__ == '__main__':
             speak("For your convenience, I am printing it on the screen sir.")
             print(
                 f"Description: {weather}\nTemperature: {temperature}\nFeels like: {feels_like}")
+
+# Note: Must consider that while installing pyaudio into the environment you must first install pipwin using 'pip install pipwin' command and then use 'pipwin install pyaudio' command to install pyaudio.
